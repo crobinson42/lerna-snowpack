@@ -1,0 +1,36 @@
+{
+  "name": "lerna-snowpack-demo-react-buttons",
+  "version": "1.0.0",
+  "description": "React components for buttons",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "postinstall": "npm run build",
+    "prepublishOnly": "npm run build",
+    "start": "rollup -c --watch"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "autoprefixer": "^10.2.5",
+    "react": "^17.0.2",
+    "rollup": "^2.44.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "peerDependencies": {
+    "react": ">= 16.13.1"
+  },
+  "dependencies": {
+    "lerna-snowpack-demo-react-common": "^1.0.0"
+  }
+}

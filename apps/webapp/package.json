@@ -1,0 +1,28 @@
+{
+  "name": "lerna-snowpack-demo-webapp",
+  "version": "1.0.0",
+  "description": "A Snowpack webapp",
+  "scripts": {
+    "build": "NODE_ENV=production snowpack build",
+    "prepublishOnly": "npm run build",
+    "start": "snowpack dev"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "author": "coryrobinson42@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@snowpack/plugin-postcss": "^1.2.2",
+    "@snowpack/plugin-react-refresh": "^2.4.2",
+    "lerna-snowpack-demo-react-buttons": "^1.0.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "postcss-discard-duplicates": "^4.0.2",
+    "postcss-nesting": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "snowpack": "^3.3.0-pre.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
