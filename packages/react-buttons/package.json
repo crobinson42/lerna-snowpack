@@ -25,12 +25,12 @@
     "autoprefixer": "^10.2.5",
     "react": "^17.0.2",
     "rollup": "^2.44.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4"
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "lerna-snowpack-demo-react-common": "^1.0.0"
   },
   "peerDependencies": {
     "react": ">= 16.13.1"
   },
   "dependencies": {
-    "lerna-snowpack-demo-react-common": "^1.0.0"
   }
 }

@@ -15,14 +15,14 @@
   "dependencies": {
     "@snowpack/plugin-postcss": "^1.2.2",
     "@snowpack/plugin-react-refresh": "^2.4.2",
-    "lerna-snowpack-demo-react-buttons": "^1.0.0",
     "autoprefixer": "^10.2.5",
+    "lerna-snowpack-demo-react-buttons": "^1.0.0",
     "postcss": "^8.2.9",
     "postcss-discard-duplicates": "^4.0.2",
     "postcss-nesting": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "snowpack": "^3.3.0-pre.1",
+    "snowpack": "^3.2.2",
     "tailwindcss": "^2.1.1"
   }
 }
