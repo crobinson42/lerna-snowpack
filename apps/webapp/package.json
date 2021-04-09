@@ -17,6 +17,7 @@
     "@snowpack/plugin-react-refresh": "^2.4.2",
     "autoprefixer": "^10.2.5",
     "lerna-snowpack-demo-react-buttons": "^1.0.0",
+    "lerna-snowpack-demo-react-common": "^1.0.0",
     "postcss": "^8.2.9",
     "postcss-discard-duplicates": "^4.0.2",
     "postcss-nesting": "^7.0.1",

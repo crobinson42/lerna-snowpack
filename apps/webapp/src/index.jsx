@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { PrimaryButton } from 'lerna-snowpack-demo-react-common'
+import { PrimaryButton } from 'lerna-snowpack-demo-react-buttons'
 
 const App = () => (
   <React.StrictMode>
