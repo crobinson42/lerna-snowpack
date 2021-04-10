@@ -4,7 +4,7 @@ module.exports = {
     src: '/dist',
   },
   optimize: {
-    bundle: false,
+    bundle: true,
     minify: false,
     splitting: true,
     target: 'es2019',

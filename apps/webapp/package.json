@@ -4,6 +4,7 @@
   "description": "A Snowpack webapp",
   "scripts": {
     "build": "NODE_ENV=production snowpack build",
+    "build-serve": "npm run build && npx serve build",
     "prepublishOnly": "npm run build",
     "start": "snowpack dev"
   },
